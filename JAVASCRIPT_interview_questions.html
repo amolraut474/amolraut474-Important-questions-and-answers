@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>interview Questions</title>
+   <link rel="stylesheet" href="./Style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+   <!-- Header section -->
+   <div class="section-1">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-3">
+         <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="Header-s">
+               <div><a class="navbar-brand" href="#">Important</a></div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="./HTML_interview_questions.html">HTML</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page" href="./CSS_interview_questions.html">CSS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page"
+                        href="./JAVASCRIPT_interview_questions.html">Javascript</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page" href="./BOOTSTRAP_interview_questions.html">bootstrap</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page" href="./REACT_interview_questions.html">React</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page" href="./WORDPRESS_interview_questions.html">Wordpress</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </div>
+   <!-- interview Questions and ansuers -->
+   <div class="html_interview">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <ol>
+                  <li>
+                     <h2><span>questions:-</span>What is JavaScript?</h2>
+                     <p><span>answers:-</span>JavaScript is the world's most popular programming language.
+
+                        JavaScript is the programming language of the Web.JavaScript is a high-level, interpreted
+                        programming language primarily used for building interactive web applications.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What is JavaScript, and what are its key features?
+                     </h2>
+                     <p><span>answers:-</span> JavaScript is a high-level, interpreted programming language primarily
+                        used for building interactive web applications. Its key features include:
+                        Client-side scripting: JavaScript runs on the client's browser, allowing for dynamic interaction
+                        with web pages.
+                        Lightweight and versatile: JavaScript can be used for a wide range of tasks, from simple DOM
+                        manipulation to complex web application development.
+                        Object-oriented: JavaScript supports object-oriented programming paradigms, including
+                        encapsulation, inheritance, and polymorphism.
+                        Asynchronous programming: JavaScript supports asynchronous operations through callbacks,
+                        promises, and async/await syntax, enabling non-blocking I/O operations.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What is the difference between "undefined" and "null" in JavaScript?
+                     </h2>
+                     <p><span>answers:-</span>In JavaScript, "undefined" means a variable has been declared but has not
+                        been assigned a value. It's a primitive data type. On the other hand, "null" is an assignment
+                        value that represents the intentional absence of any object value. It's also a primitive data
+                        type, but explicitly indicates a lack of value.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What is hoisting in JavaScript?</h2>
+                     <p><span>answers:-</span>Hoisting is a JavaScript mechanism where variables and function
+                        declarations are moved to the top of their containing scope during the compilation phase. This
+                        means you can access variables and functions before they are declared. However, only the
+                        declarations are hoisted, not the initializations.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>Explain closures in JavaScript and provide an example.
+                     </h2>
+                     <p><span>answers:-</span>Closures are functions that have access to the outer (enclosing)
+                        function's variables, even after the outer function has finished executing. They encapsulate and
+                        preserve the state of a function's lexical environment. Here's an example:
+                        function outerFunction() {
+                        let outerVariable = 'I am outer';
+                        function innerFunction() {
+                        console.log(outerVariable);
+                        }
+                        return innerFunction;
+                        }
+                        let closureExample = outerFunction();
+                        closureExample(); // Output: I am outer
+
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What are the differences between "==" and "===" operators in
+                        JavaScript?
+                     </h2>
+                     <p><span>answers:-</span> In JavaScript, "==" is the equality operator, which checks if two values
+                        are equal after performing type coercion if necessary. "===" is the strict equality operator,
+                        which checks if two values are equal without performing type coercion. Using "===" is generally
+                        preferred because it avoids unexpected type conversions.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What are the different ways to define variables in JavaScript?
+                     </h2>
+                     <p><span>answers:-</span> In JavaScript, you can define variables using the var, let, or const
+                        keywords. var is function-scoped and can be redeclared and reassigned. let and const are
+                        block-scoped; let variables can be reassigned, while const variables cannot be reassigned once
+                        declared.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What are the differences between promises and async/await in
+                        JavaScript?
+                     </h2>
+                     <p><span>answers:-</span>Promises are objects representing the eventual completion or failure of an
+                        asynchronous operation. They allow for chaining asynchronous operations and handling success and
+                        error cases. Async/await is a syntactic sugar built on top of promises, allowing for
+                        asynchronous code to be written in a synchronous-like manner. It makes asynchronous code easier
+                        to read and write by using the async and await keywords.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What are "higher-order functions" in JavaScript, and how are they
+                        useful?
+                     </h2>
+                     <p><span>answers:-</span>Higher-order functions are functions that either take other functions as
+                        arguments or return functions as results. They enable functional programming paradigms such as
+                        map, filter, reduce, and compose. Higher-order functions promote code reusability, modularity,
+                        and the creation of expressive and concise code.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>Explain the "this" keyword in JavaScript and how its value is
+                        determined.
+                     </h2>
+                     <p><span>answers:-</span>In JavaScript, the value of the this keyword is determined by how a
+                        function is called, not where it's defined. It refers to the object that is executing the
+                        current function. The value of this can be influenced by function invocation patterns such as
+                        method invocation, function invocation, constructor invocation, or using the call, apply, or
+                        bind methods.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span> What are the different data types in JavaScript?
+                     </h2>
+                     <p><span>answers:-</span>JavaScript has several data types, including:
+                        Primitive types: number, string, boolean, null, undefined, and symbol (added in ECMAScript 6).
+                        Object types: object, array, function, date, regexp, and more.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span> What is the difference between let, const, and var for variable
+                        declaration in JavaScript?
+                     </h2>
+                     <p><span>answers:-</span>var is function-scoped and can be redeclared and reassigned. let and const
+                        are block-scoped; let variables can be reassigned, while const variables cannot be reassigned
+                        once declared.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span> What are arrays in JavaScript, and how do you access and manipulate
+                        array elements?
+                     </h2>
+                     <p><span>answers:-</span>Arrays are ordered collections of values, represented by square brackets [
+                        ]. You can access array elements using bracket notation (arr[index]) and manipulate them using
+                        various methods like push(), pop(), shift(), unshift(), splice(), and slice().
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span> Explain the concept of functions in JavaScript.
+                     </h2>
+                     <p><span>answers:-</span>Functions in JavaScript are reusable blocks of code that can be invoked
+                        with specific arguments. They can be defined using the function keyword or arrow function syntax
+                        (() => { }). Functions can accept parameters and return values, making them versatile tools for
+                        organizing and executing code logic.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span> What is the DOM (Document Object Model) in JavaScript?
+                     </h2>
+                     <p><span>answers:-</span>The DOM is a programming interface for web documents. It represents the
+                        structure of an HTML document as a tree of objects, where each object represents a part of the
+                        document, such as elements, attributes, and text nodes. JavaScript can interact with the DOM to
+                        dynamically update or modify the content, structure, and style of web pages.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span> What are conditional statements in JavaScript, and how do they work?
+                     </h2>
+                     <p><span>answers:-</span>Conditional statements, such as if, else if, and else, allow you to
+                        execute different blocks of code based on specified conditions. JavaScript evaluates the
+                        condition provided in the if statement, and if it's true, the corresponding block of code is
+                        executed. If the condition is false, JavaScript moves to the next else if or else statement, if
+                        present.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span> Explain call(), apply() and, bind() methods.
+                     </h2>
+                     <p><span>answers:-</span>call method:
+                        The call method is used to invoke a function and specify the value of this explicitly. It
+                        accepts the context object as its first argument, followed by any additional arguments to be
+                        passed to the function. Here's an example:
+                        const obj = {
+                        name: 'John'
+                        };
+
+                        function greet(message) {
+                        console.log(`${message}, ${this.name}!`);
+                        }
+
+                        greet.call(obj, 'Hello'); // Output: Hello, John!
+                        apply method:
+                        Similar to call, the apply method is used to invoke a function and specify the value of this.
+                        However, it accepts an array or array-like object as its second argument, which is passed as
+                        individual arguments to the function. Here's an example:
+                        const obj = {
+                        name: 'Alice'
+                        };
+
+                        function greet(message, punctuation) {
+                        console.log(`${message}, ${this.name}${punctuation}`);
+                        }
+
+                        greet.apply(obj, ['Hi', '!']); // Output: Hi, Alice!
+                        bind method:
+                        The bind method is used to create a new function with a specified context (the value of this)
+                        without invoking it immediately. It returns a new function with the bound context, which can be
+                        called later. Here's an example:
+                        const obj = {
+                        name: 'Emily'
+                        };
+
+                        function greet(message) {
+                        console.log(`${message}, ${this.name}!`);
+                        }
+
+                        const boundGreet = greet.bind(obj);
+                        boundGreet('Hey'); // Output: Hey, Emily!
+                        Additionally, bind can also partially apply arguments to a function:
+                        const obj = {
+                        name: 'Bob'
+                        };
+
+                        function greet(message, punctuation) {
+                        console.log(`${message}, ${this.name}${punctuation}`);
+                        }
+
+                        const boundGreet = greet.bind(obj, 'Good morning');
+                        boundGreet('!'); // Output: Good morning, Bob!
+
+                        Use call when you want to invoke a function immediately with a specific context and pass
+                        arguments individually.
+                        Use apply when you want to invoke a function immediately with a specific context and pass
+                        arguments as an array.
+                        Use bind when you want to create a new function with a specific context without invoking it
+                        immediately, optionally with partially applied arguments.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What are callbacks?
+                     </h2>
+                     <p><span>answers:-</span>A callback is a function that will be executed after another function gets
+                        executed. In javascript, functions are treated as first-class citizens, they can be used as an
+                        argument of another function, can be returned by another function, and can be used as a property
+                        of an object.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What are the types of errors in javascript?</h2>
+                     <p><span>answers:-</span>Syntax error: Syntax errors are mistakes or spelling problems in the code
+                        that cause the program to not execute at all or to stop running halfway through. Error messages
+                        are usually supplied as well.
+                        Logical error: Reasoning mistakes occur when the syntax is proper but the logic or program is
+                        incorrect. The application executes without problems in this case. However, the output findings
+                        are inaccurate. These are sometimes more difficult to correct than syntax issues since these
+                        applications do not display error signals for logic faults.
+
+
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What are arrow functions?</h2>
+                     <p><span>answers:-</span>Arrow functions were introduced in the ES6 version of javascript. They
+                        provide us with a new and shorter syntax for declaring functions. Arrow functions can only be
+                        used as a function expression.
+                        Let’s compare the normal function declaration and the arrow function declaration in detail:
+                        // Traditional Function Expression
+                        var add = function(a,b){
+                        return a + b;
+                        }
+
+                        // Arrow Function Expression
+                        var arrowAdd = (a,b) => a + b;
+                        Arrow functions are declared without the function keyword. If there is only one returning
+                        expression then we don’t need to use the return keyword as well in an arrow function as shown in
+                        the example above. Also, for functions having just one line of code, curly braces { } can be
+                        omitted.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What is the rest parameter and spread operator?</h2>
+                     <p><span>answers:-</span>Both rest parameter and spread operator were introduced in the ES6 version
+                        of javascript.
+
+                        Rest parameter ( … ):
+
+                        It provides an improved way of handling the parameters of a function.
+                        Using the rest parameter syntax, we can create functions that can take a variable number of
+                        arguments.
+                        Any number of arguments will be converted into an array using the rest parameter.
+                        It also helps in extracting all or some parts of the arguments.
+                        Rest parameters can be used by applying three dots (...) before the parameters.
+                        function extractingArgs(...args){
+                        return args[1];
+                        }
+
+                        // extractingArgs(8,9,1); // Returns 9
+
+                        function addAllArgs(...args){
+                        let sumOfArgs = 0;
+                        let i = 0;
+                        while(i < args.length){ sumOfArgs +=args[i]; i++; } return sumOfArgs; } addAllArgs(6, 5, 7, 99);
+                           // Returns 117 addAllArgs(1, 3, 4); // Returns 8 Spread operator (…): Although the syntax of
+                           the spread operator is exactly the same as the rest parameter, the spread operator is used to
+                           spreading an array, and object literals. We also use spread operators where one or more
+                           arguments are expected in a function call. function addFourNumbers(num1,num2,num3,num4){
+                           return num1 + num2 + num3 + num4; } let fourNumbers=[5, 6, 7, 8];
+                           addFourNumbers(...fourNumbers); // Spreads [5,6,7,8] as 5,6,7,8 let array1=[3, 4, 5, 6]; let
+                           clonedArray1=[...array1]; // Spreads the array into 3,4,5,6 console.log(clonedArray1); //
+                           Outputs [3,4,5,6] let obj1={x:'Hello', y:'Bye'}; let clonedObj1={...obj1}; // Spreads and
+                           clones obj1 console.log(obj1); let obj2={z:'Yes', a:'No'}; let mergedObj={...obj1, ...obj2};
+                           // Spreads both the objects and merges it console.log(mergedObj); // Outputs {x:'Hello',
+                           y:'Bye',z:'Yes',a:'No'}; Key differences between rest parameter and spread operator: Rest
+                           parameter is used to take a variable number of arguments and turns them into an array while
+                           the spread operator takes an array or an object and spreads it Rest parameter is used in
+                           function declaration whereas the spread operator is used in function calls. </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span> In JavaScript, how many different methods can you make an object?</h2>
+                     <p><span>answers:-</span>In JavaScript, there are several ways to declare or construct an object.
+
+                        Object.
+                        using Class.
+                        create Method.
+                        Object Literals.
+                        using Function.
+                        Object Constructor.
+
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What is Object Destructuring?</h2>
+                     <p><span>answers:-</span>Object destructuring is a new way to extract elements from an object or an
+                        array.
+                        Object destructuring: Before ES6 version:
+                        const classDetails = {
+                        strength: 78,
+                        benches: 39,
+                        blackBoard:1
+                        }
+
+                        const classStrength = classDetails.strength;
+                        const classBenches = classDetails.benches;
+                        const classBlackBoard = classDetails.blackBoard;
+                        The same example using object destructuring:
+                        const classDetails = {
+                        strength: 78,
+                        benches: 39,
+                        blackBoard:1
+                        }
+
+                        const {strength:classStrength, benches:classBenches,blackBoard:classBlackBoard} = classDetails;
+
+                        console.log(classStrength); // Outputs 78
+                        console.log(classBenches); // Outputs 39
+                        console.log(classBlackBoard); // Outputs 1
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>Is JavaScript a pass-by-reference or pass-by-value language?</h2>
+                     <p><span>answers:-</span>The variable's data is always a reference for objects, hence it's always
+                        pass by value. As a result, if you supply an object and alter its members inside the method, the
+                        changes continue outside of it. It appears to be pass by reference in this case. However, if you
+                        modify the values of the object variable, the change will not last, demonstrating that it is
+                        indeed passed by value.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span> What are the types of Pop up boxes available in JavaScript?</h2>
+                     <p><span>answers:-</span>There are three types of pop boxes available in JavaScript.
+
+                        Alert
+                        Confirm
+                        Prompt
+                     </p>
+                  </li>
+                  </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="Footer-section">
+      <div class="container">
+         <div class="row ">
+            <div class="col-lg-12">
+               <div class="footer-contents d-flex justify-content-center align-items-center flex-column">
+                  <div><a class="navbar-brand" href="#">Important</a></div>
+                  <div class="footer-icons">
+                     <ul class="navbar-nav d-flex flex-row ">
+                        <li class="nav-link"><i class="bi bi-facebook"></i></li>
+                        <li class="nav-link"><i class="bi bi-linkedin"></i></li>
+                        <li class="nav-link"><i class="bi bi-twitter"></i></li>
+                     </ul>
+                  </div>
+                  <div class="footer-menu">
+                     <ul class="navbar-nav d-flex flex-row ">
+                        <li class="nav-link">HTML</li>
+                        <li class="nav-link">CSS</li>
+                        <li class="nav-link">Javascript</li>
+                        <li class="nav-link mo_hide_test">bootstrap</li>
+                        <li class="nav-link mo_hide_test">React</li>
+                        <li class="nav-link mo_hide_test">Wordpress</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <section id="footer-btm">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="fop-btm text-center">
+                  <h2>Copyright © 2023. All rights reserved by <a href="#">DEVELOPER</a></h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

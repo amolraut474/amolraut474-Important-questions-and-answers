@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>interview Questions</title>
+   <link rel="stylesheet" href="./Style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+   <!-- Header section -->
+   <div class="section-1">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-3">
+         <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="Header-s">
+               <div><a class="navbar-brand" href="#">Important</a></div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="./HTML_interview_questions.html">HTML</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page" href="./CSS_interview_questions.html">CSS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page"
+                        href="./JAVASCRIPT_interview_questions.html">Javascript</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page" href="./BOOTSTRAP_interview_questions.html">bootstrap</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page" href="./REACT_interview_questions.html">React</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " aria-current="page" href="./WORDPRESS_interview_questions.html">Wordpress</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </div>
+   <!-- interview Questions and ansuers -->
+   <div class="html_interview">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <ol>
+                  <li>
+                     <h2><span>questions:-</span>What is CSS?</h2>
+                     <p><span>answers:-</span>CSS stands for Cascading Style Sheets.It’s a style sheet language that
+                        determines how the elements/contents in the page are looked/shown. CSS is used to develop a
+                        consistent look and feel for all the pages.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>How can you center an element horizontally and vertically in CSS?
+                     </h2>
+                     <p><span>answers:-</span>To center an element horizontally, you can set its margin property to auto
+                        and specify a width for the element. For vertical centering, you can use the CSS Flexbox layout
+                        or the position property along with the top, bottom, left, and right properties to position the
+                        element at 50% from the top and then use the transform property with the translateY(-50%) value
+                        to center it vertically.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>Explain the concept of the CSS Box Model.
+                     </h2>
+                     <p><span>answers:-</span>The CSS Box Model is a fundamental concept that describes the layout of
+                        HTML elements on a web page. It consists of four main components: content, padding, border, and
+                        margin. The content area contains the actual content of the element, surrounded by padding,
+                        which creates space between the content and the border. The border outlines the padding and
+                        content, and the margin provides space between the element's border and other elements on the
+                        page.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What are CSS selectors, and how do they work?</h2>
+                     <p><span>answers:-</span>CSS selectors are patterns used to select and style HTML elements based on
+                        their attributes, IDs, classes, or element types. Selectors target specific elements in an HTML
+                        document, allowing developers to apply styles selectively. For example, the element selector
+                        targets all instances of a specific HTML element type, the .class selector targets elements with
+                        a specific class, and the #id selector targets elements with a specific ID attribute.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What is the difference between classes and IDs in CSS?
+                     </h2>
+                     <p><span>answers:-</span>Classes and IDs are both used to apply styles to HTML elements, but they
+                        have some key differences. Classes can be applied to multiple elements, allowing for reusable
+                        styles across different parts of a web page. IDs, on the other hand, should be unique within a
+                        page and are typically used to target a specific element for styling or JavaScript interactions.
+                        Additionally, IDs have higher specificity in CSS compared to classes.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What are CSS Grid and Flexbox, and when would you use each?
+                     </h2>
+                     <p><span>answers:-</span> CSS Grid and Flexbox are layout systems in CSS used for creating complex
+                        and responsive layouts.
+                        Flexbox: Ideal for arranging items within a single-dimensional layout (either in rows or
+                        columns). It's well-suited for aligning items within a container and distributing space among
+                        them. Flexbox is great for navigation bars, card layouts, or any UI component where content
+                        needs to be dynamically aligned.
+                        CSS Grid: Provides a two-dimensional grid-based layout system, allowing precise control over
+                        both rows and columns. It's best used for overall page layout, where elements need to be placed
+                        in specific grid areas or have more complex alignment requirements.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>Can you explain the concept of "float" in CSS and its practical
+                        applications?
+                     </h2>
+                     <p><span>answers:-</span>The "float" property in CSS is used to align elements horizontally within
+                        their container. It's commonly used for creating layouts where elements can wrap around each
+                        other, like in multi-column designs or floating images within text. However, it's important to
+                        note that floats can lead to layout issues, such as clearing floats properly to avoid unintended
+                        overlap or misalignment, which may require additional CSS or clearfix techniques to address.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>How would you implement a responsive layout using CSS?
+                     </h2>
+                     <p><span>answers:-</span> To create a responsive layout, I would use media queries to apply
+                        different styles based on the viewport width. By setting breakpoints and adjusting styles
+                        accordingly, I can ensure that the layout adapts smoothly to various screen sizes. Additionally,
+                        I would utilize flexible units like percentages, viewport units, or flexbox/grid layout to
+                        create fluid and adaptable designs.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>How can you center an element horizontally and vertically in CSS?
+                     </h2>
+                     <p><span>answers:-</span> To center an element horizontally, you can set its margin property to
+                        auto and its display property to either block or inline-block. To center an element vertically,
+                        you can use the flexbox layout or CSS grid. Alternatively, you can use the transform property
+                        with the translate() function.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>Explain the difference between inline and block-level elements.
+                     </h2>
+                     <p><span>answers:-</span>Inline elements flow within the text and do not start on a new line. They
+                        only take up as much width as necessary and do not force line breaks. Examples include span, a,
+                        and img. Block-level elements, on the other hand, start on a new line and occupy the full width
+                        available. They create a visual block on the page. Examples include div, p, and h1-h6.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What are pseudo-classes in CSS?
+                     </h2>
+                     <p><span>answers:-</span>Pseudo-classes are keywords that specify a special state of an element.
+                        They allow you to style elements based on user interaction or document structure that can't be
+                        targeted using ordinary selectors. Examples include :hover, :active, :focus, and :nth-child().
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What is the difference between inline, inline-block, and block?
+                     </h2>
+                     <p><span>answers:-</span>Block Elements are div and p. They usually start on a new line and can
+                        take space for an entire row or width.
+                        Inline elements are a, span, strong, and img tags. They don't start on a new line. However, they
+                        appear on the same line as the content and tags beside them.
+                        Inline block elements have padding and margins and set height and width values. Though, they are
+                        similar to inline elements.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What is the difference between margin and padding?
+                     </h2>
+                     <p><span>answers:-</span>Margin is the space outside the border of an element, while padding is the
+                        space between the content of an element and its border. Margin creates space between elements,
+                        while padding creates space within an element.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What do you understand by the universal sector?
+                     </h2>
+                     <p><span>answers:-</span>A universal selector is a selector that matches any element type's name
+                        instead of selecting elements of a particular type.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What is the use of CSS Opacity?
+                     </h2>
+                     <p><span>answers:-</span>The CSS opacity property is used to specify the transparency of an
+                        element. In simple word, you can say that it specifies the clarity of the image. In technical
+                        terms, Opacity is defined as the degree to which light is allowed to travel through an object.
+                     </p>
+                  </li>
+
+
+                  <li>
+                     <h2><span>questions:-</span>Explain the difference between visibility: hidden and display: none?
+                     </h2>
+                     <p><span>answers:-</span>visibility: hidden hides the element, but it occupies space and affects
+                        the layout of the document.
+                        display: none also hides the element but not occupy space. It will not affect the layout of the
+                        document.
+                     </p>
+                  </li>
+
+
+                  <li>
+                     <h2><span>questions:-</span>What are the position states in CSS?
+                     </h2>
+                     <p><span>answers:-</span>The four-position states in CSS are relative, static, absolute, and fixed.
+                        The default position state is static.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What are the position states in CSS?
+                     </h2>
+                     <p><span>answers:-</span>The four-position states in CSS are relative, static, absolute, and fixed.
+                        The default position state is static.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>Differentiate between absolute and relative in CSS.
+                     </h2>
+                     <p><span>answers:-</span>The main difference is that relative is used for the same tag in CSS. If
+                        we write right:20 px, then padding shifts 20 px in the right. Whereas absolute is relative to
+                        the non-static parent, i.e., if we write right:20 px, the result will be 20 px far from the
+                        right edge of the parent element.
+                     </p>
+                  </li>
+                  <li>
+                     <h2><span>questions:-</span>What are Pseudo classes?
+                     </h2>
+                     <p><span>answers:-</span>Pseudo-classes are the type of pseudo-elements that don’t exist in a
+                        normal document tree. It allows selecting the regular elements under certain conditions
+                        especially when we try to hover over the link; the anchor tags are :link, :visited, :hover,
+                        :active, :focus
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What is the grid system?
+                     </h2>
+                     <p><span>answers:-</span>The CSS grid system is a type of powerful layout of 2 dimensional systems
+                        with respect to columns and rows.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>Difference between CSS grid vs flexbox?0
+                     </h2>
+                     <p><span>answers:-</span>(1)CSS Grid Layout is a two-dimensional system along with rows and
+                        columns. It is used for large-sized layouts.
+                        (2)Flexbox is a Grid layout with a one-dimensional system either within a row or a column. It is
+                        used for the components of an application.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What are the properties of flexbox?
+
+                     </h2>
+                     <p><span>answers:-</span>The properties of flexbox are flex-direction, wrap, flow, content, and
+                        align-items, and content.
+                     </p>
+                  </li>
+
+                  <li>
+                     <h2><span>questions:-</span>What are the various positioning properties in CSS?
+                     </h2>
+                     <p><span>answers:-</span>The position property in CSS tells about the method of positioning for an
+                        element or an HTML entity. There are five different types of position properties available in
+                        CSS:
+                        Fixed: Any HTML element with position: fixed property will be positioned relative to the viewport. An element with fixed positioning allows it to remain at the same position even as we scroll the page. We can set the position of the element using the top, right, bottom, and left.
+                        Static: This method of positioning is set by default. If we don’t mention the method of positioning for any element, the element has the position: static method by default. By defining Static, the top, right, bottom and left will not have any control over the element. The element will be positioned with the normal flow of the page.
+                        Relative: An element with position: relative is positioned relatively with the other elements which are sitting at top of it. If we set its top, right, bottom, or left, other elements will not fill up the gap left by this element.
+
+                        Absolute: An element with position: absolute will be positioned with respect to its parent. The positioning of this element does not depend upon its siblings or the elements which are at the same level.
+                        Sticky: Element with position: sticky and top: 0 played a role between fixed & relative based on the position where it is placed. If the element is placed in the middle of the document then when the user scrolls the document, the sticky element starts scrolling until it touches the top. When it touches the top, it will be fixed at that place in spite of further scrolling. We can stick the element at the bottom, with the bottom property.
+                     </p>
+                  </li>
+                  </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="Footer-section">
+      <div class="container">
+         <div class="row ">
+            <div class="col-lg-12">
+               <div class="footer-contents d-flex justify-content-center align-items-center flex-column">
+                  <div><a class="navbar-brand" href="#">Important</a></div>
+                  <div class="footer-icons">
+                     <ul class="navbar-nav d-flex flex-row ">
+                        <li class="nav-link"><i class="bi bi-facebook"></i></li>
+                        <li class="nav-link"><i class="bi bi-linkedin"></i></li>
+                        <li class="nav-link"><i class="bi bi-twitter"></i></li>
+                     </ul>
+                  </div>
+                  <div class="footer-menu">
+                     <ul class="navbar-nav d-flex flex-row ">
+                        <li class="nav-link">HTML</li>
+                        <li class="nav-link">CSS</li>
+                        <li class="nav-link">Javascript</li>
+                        <li class="nav-link mo_hide_test">bootstrap</li>
+                        <li class="nav-link mo_hide_test">React</li>
+                        <li class="nav-link mo_hide_test">Wordpress</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <section id="footer-btm">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="fop-btm text-center">
+                  <h2>Copyright © 2023. All rights reserved by <a href="#">DEVELOPER</a></h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
